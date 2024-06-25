@@ -1,5 +1,6 @@
 package com.bancodigital.repository;
 
+
 public interface ContaInterface {
 
     void depositar(Double valor);
@@ -9,5 +10,7 @@ public interface ContaInterface {
     void transferir(Double valor, ContaInterface contaDestino);
 
     void imprimirExtrato();
+
+
 
 }

@@ -35,6 +35,7 @@ public abstract class ContaAbstract implements ContaInterface {
     @Override
     public void transferir(Double valor, ContaInterface contaDestino) {
         this.sacar(valor);
+
         contaDestino.depositar(valor);
     }
 
